@@ -1,0 +1,237 @@
+body{
+	background-image: url('img/wp_1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align:center;
+}
+a{
+	font-family:Trebuchet MS;
+	color:black;
+	text-decoration:none;
+	font-size:15px;
+}			 			
+.navbar_table{
+	box-shadow:0 0 20px;
+	background:#550000;
+}
+.navbar{			
+	position:fixed;
+	top:0;
+	right:0;
+	left:0;
+	width:100%;
+	background-color:#550000;
+	box-shadow:0 0 20px;
+}
+.logo{
+	display:block;
+	margin:auto;
+	width:100%;
+	
+}
+.navbar_title{
+	border:none;
+	background:none;
+	font-size:30px;
+	color:white;
+	font-family:papyrus;
+}
+.navbar_button{
+	font-size:15px;
+	color:black;
+	font-family:Trebuchet MS;
+	text-decoration:none;
+	border:1px solid white;
+	border-width:1px 5px;
+	padding: 5px 5px 5px 5px;
+	background:white;
+	border-radius: 5px;
+	margin-right: 3%;
+}
+.navbar_button:hover{
+	box-shadow: 0 0 5px white;
+}
+.content_table{
+	align:center;
+	background:white;
+	padding-top:100px;
+}
+.index_text{
+	margin-left:10%;
+	margin-right:10%;
+	
+}
+.footer{
+	width:100%;
+	box-shadow: 0 0 10px;
+	background-color:220000;
+}
+.copyright{
+	color:white;
+	text-align:center;
+	margin-bottom:20px;
+	
+}
+.footer_table{
+	box-shadow: 0 0 20px;
+	background:#220000;
+}
+h1{
+	text-align:center;
+	font-family:Trebuchet MS;
+}
+h2{
+	margin-top:50px;
+	text-align:center;
+	font-family:Trebuchet MS;
+}
+.slogan{
+	font-family:Courier New;
+	text-align:center;
+	font-size:35px;
+	margin-top:50px;
+}
+p{
+	font-family:Trebuchet MS;
+	font-size:20px;
+	text-align:justify;
+	margin: 20px 30px 0px 30px;
+	margin-top:20px;
+}
+img{
+	margin: 20px 30px 0px 30px;
+}
+.img_center{
+	display:block;
+	margin:auto;	
+}
+.img_info{
+	display:block;
+	text-align:center;
+	margin:auto;
+}
+.p_crusade{
+	margin-left:10%;
+	margin-right:10%;	
+}
+.info{
+	font-size:15px;
+	color:grey;
+	text-align:center;
+	margin-left:15%;
+	margin-right:15%;
+}
+.reference_link{
+	color:grey;
+}
+dl{
+	font-family:Trebuchet MS;
+	font-size:20px;
+	margin: 30px 30px 30px 30px;
+	
+}
+dt{
+	margin-bottom:10px;
+	margin-top:50px;
+	padding-left:5px;
+	border-left: 5px solid #550000;
+	
+}
+.dd{
+	font-size:20px;	
+}
+.dd:hover{
+	border:1px solid black;
+	border-radius:10px;
+}
+hr{
+	display:block;
+	margin:auto;
+}
+
+@media only screen and (max-width:1359px){
+	.navbar_title{
+		border:none;
+		background:none;
+		font-size:20px;
+		color:white;
+		font-family:papyrus;
+	}
+	.navbar_button{
+		font-size:10px;
+		color:black;
+		font-family:Trebuchet MS;
+		text-decoration:none;
+		border:1px solid white;
+		border-width:1px 5px;
+		padding: 3px 3px 3px 3px;
+		background:white;
+		border-radius: 5px;
+		margin-right: 3%;
+	}
+}
+@media only screen and (max-width:974px){
+	.navbar_title{
+		border:none;
+		background:none;
+		font-size:20px;
+		color:white;
+		font-family:papyrus;
+	}
+	.navbar_button{
+		font-size:10px;
+		color:black;
+		font-family:Trebuchet MS;
+		text-decoration:none;
+		border:1px solid white;
+		border-width:1px 2px;
+		padding: 1px 1px 1px 1px;
+		background:white;
+		border-radius: 5px;
+		margin-right: 1%;
+	}
+}
+@media only screen and (max-width:837px){
+	*{
+		margin: 0 0 0 0;
+	}
+	img{
+		margin: 0 0 0 0;
+	}
+	table{
+		width:100%;
+	}
+	p{
+		margin: 5 5 5 5;
+	}
+	.logo{
+		width:30px;
+	}
+	.navbar_title{
+		display:none;
+		border:none;
+		background:none;
+		font-size:20px;
+		color:white;
+		font-family:papyrus;
+	}
+	.navbar_title_cell{
+		width:1px;
+	}
+	.navbar_button{
+		font-size:10px;
+		color:black;
+		font-family:Trebuchet MS;
+		text-decoration:none;
+		border:1px solid white;
+		border-width:1px 2px;
+		padding: 1px 1px 1px 1px;
+		background:white;
+		border-radius: 5px;
+		margin-right: 1%;
+	}
+	.button_cell{
+		width:80%;
+	}
+}
